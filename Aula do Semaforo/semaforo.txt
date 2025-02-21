@@ -1,0 +1,40 @@
+#define pinVermelho 13
+#define pinAmarelo 12
+#define pinVerde 8
+
+#define pinVermelhoC 7
+#define pinAmareloC 4
+#define pinVerdeC 2
+
+#define tempVermelho 5000
+#define tempAmarelo 2000
+#define tempVerde 3000
+void setup()
+{
+ pinMode(pinVermelho, OUTPUT); 
+ pinMode(pinAmarelo, OUTPUT);
+ pinMode(pinVerde, OUTPUT);
+ pinMode(pinVermelhoP, OUTPUT); 
+ pinMode(pinAmareloP, OUTPUT);
+ pinMode(pinVerdeP, OUTPUT);
+}
+
+void loop()
+{
+ digitalWrite(pinVerde, HIGH);
+ digitalWrite(pinVermelhoP, HIGH);
+ delay(tempVerde);
+ digitalWrite(pinVerde, LOW);
+ digitalWrite(pinAmarelo, HIGH);
+ delay(tempAmarelo);
+ digitalWrite(pinAmarelo, LOW);
+ digitalWrite(pinVermelhoP, LOW);
+ digitalWrite(pinVermelho, HIGH);
+ digitalWrite(pinVerdeP, HIGH);
+ delay(tempVerde);
+ digitalWrite(pinVerdeP, LOW);
+ digitalWrite(pinAmareloP, HIGH);
+ delay(tempAmarelo);
+ digitalWrite(pinAmareloP, LOW);
+ digitalWrite(pinVermelho, LOW);    
+}
