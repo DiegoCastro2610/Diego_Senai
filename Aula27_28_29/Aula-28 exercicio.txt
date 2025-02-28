@@ -1,0 +1,61 @@
+#define led1 4
+#define led2 12
+#define led3 7
+#define led4 2
+
+bool led2valor;
+float temperatura = 30.8;
+int bateria = 18;
+int valormap;
+int valorcons;
+int valororiginal = 1023;
+int valorip = 2;  
+ 
+
+void setup()
+{
+ Serial.begin(9600);
+ pinMode(led1, OUTPUT);
+ pinMode(led2, OUTPUT);
+  Serial.print("valor da temperatura: ");
+  Serial.println(temperatura, 1);
+  if(temperatura > 30)
+  {digitalWrite(led1, HIGH);}
+    else
+  {Serial.print("temperatura baixo de 30 graus");}
+  //-------------------------------------------------
+  Serial.print("porcentagem da bateria: ");
+  Serial.print(bateria);
+  Serial.println("%");
+  if(bateria <= 80 && bateria >= 20)
+                {led2valor = true;}
+                else
+                {led2valor = false;}
+    
+  //-------------------------------------------------
+  valormap = map(valororiginal,0,1023,0,100);
+  if(valormap <= 80 && valormap >= 20)
+  {Serial.print("valor: ");
+   Serial.println(valormap);}
+  else
+  {Serial.print("o valor ");
+   Serial.print(valormap);
+   Serial.print(" excedeu os limites, valor reajustado para ");
+   valorcons = constrain(valormap,20,80);
+   Serial.println(valorcons);
+   digitalWrite(led3, HIGH);}
+  //---------------------------------------------------
+  if(valorip%2 == 0)
+  {Serial.print("valor par");
+   digitalWrite(led4, HIGH);}
+  else
+  {Serial.print("valor impar");}
+}
+
+void loop()
+{
+digitalWrite(led2, led2valor);
+  delay(2000);
+digitalWrite(led2, LOW);
+  delay(2000);
+}

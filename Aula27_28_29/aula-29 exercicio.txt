@@ -1,0 +1,73 @@
+int numeropn;
+int salario1;
+int salario2;
+int numeroA;
+int numeroB;
+String nome = "Artur";
+String cargo = "pedreiro";
+int nota1 ;
+int nota2 ;
+int nota3 ;
+int nota4 ;
+float media;
+
+void setup()
+{
+Serial.begin(9600);
+if(numeropn > 0)
+{Serial.print("numero Positivo: ");
+ Serial.println(numeropn);}
+  else if(numeropn == 0)
+{Serial.print("numero Nulo: ");
+ Serial.println(numeropn);}  
+else
+{Serial.print("numero Negativo: ");
+ Serial.println(numeropn);}
+//-----------------------------------------------
+ if(salario1 < 1000)
+ {salario1 = salario1 + (salario1 * 10 / 100);
+  Serial.print("nome: ");
+  Serial.println(nome);
+  Serial.print("cargo: ");
+  Serial.println(cargo);
+  Serial.print("salario novo: ");
+  Serial.println(salario1);}
+  else
+  {Serial.println("nome: ");
+  Serial.println(nome);
+  Serial.println("cargo: ");
+  Serial.println(cargo);
+  Serial.print("salario: ");
+  Serial.println(salario1);}
+//------------------------------------------------
+  if(salario2 >= 500)
+  {Serial.println("voce nao tem direitos ao reajuste");}
+   else
+   {salario2 = salario2 + (salario2 * 30 / 100);
+    Serial.print("voce tem direito a reajuste, seu novo salario e ");
+    Serial.println(salario2);}
+//-------------------------------------------------  
+  if(numeroA > numeroB)
+  {Serial.print("valor maior:");
+   Serial.println(numeroA);}
+  else
+   {Serial.print("valor maior:");
+    Serial.println(numeroB);}
+//--------------------------------------------------
+  media = (nota1 + nota2 + nota3 + nota4)/ 4;
+  if(media > 7)
+  {Serial.print("aprovado, Nota:");
+   Serial.print(media, 1);}
+   else if(media >= 5)
+   {Serial.print("recuperacao, Nota:");
+    Serial.print(media, 1);}
+  else
+  {Serial.print("reprovado, Nota:");
+   Serial.print(media, 1);}
+   
+  }
+
+void loop()
+{
+
+}

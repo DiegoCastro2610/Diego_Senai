@@ -1,0 +1,28 @@
+float peso = 107;
+float altura = 2.21;
+float resultado;
+void setup()
+{
+Serial.begin(9600);
+resultado = peso / sq(altura);
+Serial.print("IMC seu: ");
+Serial.println(resultado,1);
+  if(resultado < 18.5)//nesse caso pode ser desse jeito
+  {Serial.print("abaixo do peso");}
+  else if( resultado <= 25  )
+  {Serial.print("peso normal");}
+  else if( resultado <= 30 )
+  {Serial.print("acima do peso");}
+  else if(resultado > 30 & resultado < 35 )//ou esse jeito mais e um pouco pior em economia de tempo
+  {Serial.print("obesidade 1");}
+  else if(resultado >= 35 & resultado < 40)
+  {Serial.print("obesida 2");}
+  else
+  {Serial.print("obesidade 3");}
+}
+void loop()
+{
+
+  
+}
+  
