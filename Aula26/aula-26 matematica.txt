@@ -1,0 +1,70 @@
+//**********Declaracao de variaveis globais*******
+
+int numeroA = 14;
+int numeroB = 5;
+int resultado = 0;
+float resultadoReal = 0;
+void setup()
+{
+ Serial.begin(9600);
+ //soma
+ resultado = numeroA + numeroB;
+ Serial.print("soma de a+b: ");
+ Serial.println(resultado);
+ //subtracao
+ resultado = numeroB - numeroA;
+ Serial.print("subtracao de b-a: ");
+ Serial.println(resultado);
+ //multiplicacao
+ resultado = numeroA * numeroB;
+ Serial.print("multiplicacao de a*b: ");
+ Serial.println(resultado);
+ //divisao
+ resultado = numeroA / numeroB;
+ Serial.print("divisao de a/b sem quebrado: ");
+ Serial.println(resultado);
+ resultado = numeroA%numeroB;
+ Serial.print("resto da divisao:");
+ Serial.println(resultado);
+ resultadoReal = (float)numeroA / (float)numeroB;
+ Serial.print("divisao com virgula: ");
+ Serial.println(resultadoReal);
+ Serial.print("divisao com virgula restringino a 1 casa de virgula: ");
+ Serial.println(resultadoReal, 1);
+ //potencia
+ resultado = pow(numeroA, numeroB);
+ Serial.print(" potencia de a elevado a b: ");
+ Serial.println(resultado);
+ resultado = sq(numeroA);
+ Serial.print("a elevado ao quadrado: ");
+ Serial.println(resultado);
+ //raiz quadrada
+ resultadoReal = sqrtf((float)numeroA);
+ Serial.print("raiz do a: ");
+ Serial.println(resultadoReal);
+ // limitador
+  resultado = 11 + 2;
+  resultado = constrain(resultado, 2, 10);//constrain(valor ,minimo ,maximo)
+  Serial.print("delimitando um valor: ");
+  Serial.println(resultado);
+ //modulo
+  resultado = numeroB - numeroA;
+  resultado = abs(resultado);
+  Serial.print("modulo de b-a: ");
+  Serial.println(resultado);
+  //opreracao de atribuicao
+  numeroA += 5; //numeroA = numeroA + 5
+  Serial.print("a+5: ");
+  Serial.println(numeroA);
+  numeroB -= 5; //numeroB = numeroB - 5
+  Serial.print("b-5: ");
+  Serial.println(numeroB);
+  //mesma coisa para divisao e multiplicacao
+  
+  
+}
+
+void loop()
+{
+
+}
