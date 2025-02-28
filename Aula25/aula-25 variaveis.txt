@@ -1,0 +1,35 @@
+int numero = 3000;
+
+void setup()
+{
+  Serial.begin(9600);
+  Serial.print("hello world!:");
+  Serial.println(numero);
+  int numero = 2000;
+  Serial.print("hello world2:");
+  Serial.println(numero);
+  Serial.print("valor do int:");
+  Serial.print(sizeof(numero));
+  Serial.println("byte");
+  
+  Serial.println("tamanhos dos tipos de variaveis Bytes");
+  Serial.print("bool:"); Serial.println(sizeof(bool));//0 ou 1 e se for maior que 1 ele vai entender como 1
+  Serial.print("char:"); Serial.println(sizeof(char));//0 a 255 letras(caracteres)
+  Serial.print("int:"); Serial.println(sizeof(int));//-32768 a 32767
+  Serial.print("unsigned int:"); Serial.println(sizeof(unsigned int));//0 a 65535
+  Serial.print("long:"); Serial.println(sizeof(long));//-2.147.483.648 a 2.147.483.647
+  Serial.print("unsigned long:"); Serial.println(sizeof(unsigned long));//0 a 4.294.967.296
+  Serial.print("float:"); Serial.println(sizeof(float));
+  //aceita virgula
+  //valor maximo positivo 3,4028235 x 10^38
+  //valor minimo positivo 1,175494 x 10^-38
+  //valor maximo negativo -3,4028235 x 10^38
+  //valor minimo negativo -1,175494 x 10^-38
+  Serial.print("double:"); Serial.println(sizeof(double));//mesma coisa do float
+  Serial.print("int8_t: "); Serial.println(sizeof(int8_t));// vc pode escolher quantos bit mudando 8 para o valor desejado chegando no maximo a 32
+  Serial.print("uint8_t: "); Serial.println(sizeof(uint8_t));//nao vai ter negativo
+}
+void loop()
+{
+
+}
