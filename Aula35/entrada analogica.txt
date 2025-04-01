@@ -1,0 +1,14 @@
+#define pinanalog A0
+
+void setup()
+{
+ Serial.begin(9600);
+ pinMode(pinanalog, INPUT); 
+}
+
+void loop()
+{
+ int valoranalogdecimal = analogRead(pinanalog);
+ float valoranalogvolts = ((float)valoranalogdecimal * 5) / 1023;
+ Serial.println(valoranalogvolts);
+}

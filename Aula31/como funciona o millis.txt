@@ -1,0 +1,15 @@
+unsigned long tempoms;
+unsigned long tempous;
+void setup()
+{
+ Serial.begin(9600);
+}
+
+void loop()
+{
+//o arguino tem um relogio interno que conta
+tempoms = millis();//conta o tamanho da variavel em milisegundos
+tempous = micros();//conta o tamanho da variavel em microsegundos
+Serial.println(tempoms);
+Serial.println(tempous);
+}

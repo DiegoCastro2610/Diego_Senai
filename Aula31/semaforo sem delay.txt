@@ -1,0 +1,76 @@
+#define ledP 12
+#define ledA 8
+#define ledS 7
+
+unsigned int tempms;
+unsigned int tempinicial;
+
+
+void setup()
+{
+ pinMode(ledP, OUTPUT);
+ pinMode(ledA, OUTPUT);
+ pinMode(ledS, OUTPUT);
+}
+
+void loop()
+{
+ tempms = millis();
+  if(3000 >= tempms-tempinicial)
+ {digitalWrite(ledS,HIGH);
+ digitalWrite(ledA,LOW);
+ digitalWrite(ledP,LOW);}
+ else if(5000 >= tempms-tempinicial)
+ {digitalWrite(ledS,LOW);
+ digitalWrite(ledA,HIGH);
+ digitalWrite(ledP,LOW);}
+  else if(10000 >= tempms-tempinicial)
+ {digitalWrite(ledS,LOW);
+ digitalWrite(ledA,LOW);
+ digitalWrite(ledP,HIGH);}
+  else
+  {tempinicial = tempms;}
+}
+
+ou
+
+#define ledP 12
+#define ledA 8
+#define ledS 7
+
+unsigned int tempms;
+char qualFase = 0;
+unsigned int tempinicial;
+
+
+void setup()
+{
+ pinMode(ledP, OUTPUT);
+ pinMode(ledA, OUTPUT);
+ pinMode(ledS, OUTPUT);
+}
+
+void loop()
+{
+ tempms = millis();
+  if(qualFase == 0)
+  {digitalWrite(ledP, LOW);
+   digitalWrite(ledS, HIGH);
+   if(3000 == tempms - tempinicial)
+   {qualFase = 1;
+    tempinicial = tempms;}}
+  
+  if(qualFase == 1)
+  {digitalWrite(ledS, LOW);
+   digitalWrite(ledA, HIGH);
+   if(2000 == tempms - tempinicial)
+   {qualFase = 2;
+    tempinicial = tempms;}}
+  
+  if(qualFase == 2)
+  {digitalWrite(ledA, LOW);
+   digitalWrite(ledP, HIGH);
+   if(5000 == tempms - tempinicial)
+   {qualFase = 0;
+    tempinicial = tempms;}} 
+}

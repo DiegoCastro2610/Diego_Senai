@@ -1,0 +1,42 @@
+#define ledverm 13
+#define ledamar 12
+#define ledazul 8
+#define ledverd 7
+#define ledbran 4
+
+int corled = 6;
+  
+void setup()
+{
+  pinMode(ledverm, OUTPUT);
+  pinMode(ledamar, OUTPUT);
+  pinMode(ledazul, OUTPUT);
+  pinMode(ledverd, OUTPUT);
+  pinMode(ledbran, OUTPUT);
+  Serial.begin(9600);
+  switch(corled)
+  {case 1:
+    digitalWrite(ledverm, HIGH);
+  break;
+  case 2:
+    digitalWrite(ledamar, HIGH);
+  break;
+  case 3:
+    digitalWrite(ledazul, HIGH);
+  break;
+  case 4:
+    digitalWrite(ledverd, HIGH);
+  break;
+  case 5:
+    digitalWrite(ledbran, HIGH);
+   break;
+  default:
+  Serial.print("erro nao existe esse led");
+  break;}
+    
+}
+
+void loop()
+{
+ 
+}

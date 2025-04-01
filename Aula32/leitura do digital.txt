@@ -1,0 +1,23 @@
+bool estadoatual;
+ unsigned int valorserial = 0;
+ bool ultimoestado;
+
+void setup()
+{
+  pinMode(12, INPUT);
+  pinMode(8,OUTPUT);
+ Serial.begin(9600);
+}
+
+void loop()
+{
+  ultimoestado =  estadoatual;
+  estadoatual = digitalRead(12);
+  if(estadoatual == 1) 
+  {digitalWrite(8 ,HIGH);}
+   if(estadoatual == 0) 
+   {digitalWrite(8 ,LOW);}
+  if(ultimoestado == 0 & estadoatual == 1 )
+  {valorserial = valorserial + 1;
+   Serial.println(valorserial);}   
+}

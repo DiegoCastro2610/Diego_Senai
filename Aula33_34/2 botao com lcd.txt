@@ -1,0 +1,59 @@
+#include <LiquidCrystal_I2C.h>
+
+#define led1 13
+#define led2 4
+#define botao1 12
+#define botao2 7
+
+ LiquidCrystal_I2C lcd (0x27 ,20 ,4);
+
+void setup()
+{
+ pinMode(botao1,INPUT);
+ pinMode(botao2,INPUT);
+ pinMode(led1,OUTPUT);
+ pinMode(led2,OUTPUT);
+ lcd.init();
+ lcd.backlight();
+}
+
+void loop()
+{
+static bool passadobotao1;
+static bool passadobotao2;
+bool atualbotao1 = digitalRead(botao1);
+bool atualbotao2 = digitalRead(botao2);
+static bool estadoled1;
+static bool estadoled2;
+
+if(atualbotao1 & !passadobotao1)
+{estadoled1 = !estadoled1;
+ digitalWrite(led1, estadoled1);
+ lcd.clear();
+ lcd.setCursor(0,0);
+ lcd.print("led1");
+ lcd.setCursor(5,0);
+ lcd.print("on");}
+  else if(estadoled1 == 0)
+ {lcd.setCursor(0,0);
+ lcd.print("led1");
+ lcd.setCursor(5,0);
+ lcd.print("off");}
+  
+  if(atualbotao2 & !passadobotao2)
+ {estadoled2 = !estadoled2;
+ digitalWrite(led2, estadoled2);
+ lcd.clear();
+ lcd.setCursor(0,1);
+ lcd.print("led2");
+ lcd.setCursor(5,1);
+ lcd.print("on");}
+  else if(estadoled2 == 0)
+ {lcd.setCursor(0,1);
+ lcd.print("led2");
+ lcd.setCursor(5,1);
+ lcd.print("off");}
+ 
+ passadobotao1 = atualbotao1;
+ passadobotao2 = atualbotao2;
+}

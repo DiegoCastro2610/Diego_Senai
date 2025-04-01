@@ -1,0 +1,177 @@
+#include <LiquidCrystal_I2C.h>
+
+#define leda 9
+#define ledv 10
+
+LiquidCrystal_I2C lcd (0x27,20,6);
+
+
+void setup()
+{
+ lcd.init();
+ lcd.backlight();
+ pinMode(ledv, OUTPUT);
+ pinMode(leda, OUTPUT);
+ pinMode(A0, INPUT);
+ Serial.begin(9600);
+  
+ lcd.setCursor(1,0);
+ lcd.print("ledV");
+ lcd.setCursor(1,1);
+ lcd.print("ledA");
+}
+
+void loop()
+{
+ static int botaopassado;
+ int botaodecimal = analogRead(A0);
+ static bool seta;
+ static bool ok1;
+ static bool ok2;
+ static char brilho1;
+ static char brilho2;
+ static int porcentagem1;
+ static int porcentagem2;
+
+   
+  if(botaodecimal == 0 &
+     botaopassado == 1023)
+  {
+   seta = 0;//sobe
+  }
+  if(botaodecimal >= 253 &
+     botaodecimal <= 255 &
+     botaopassado == 1023 )
+  {
+   seta = 1;//dece
+  }
+  
+  
+  if(seta == 0)//seta no vermelho
+  {
+    lcd.setCursor(0,0);
+   lcd.print(">");
+   lcd.setCursor(0,1);
+   lcd.print(" ");
+  }
+  else if(seta == 1)//seta no azul
+  {
+   lcd.setCursor(0,0);
+   lcd.print(" "); 
+   lcd.setCursor(0,1);
+   lcd.print(">");
+  }
+  
+  
+  if(botaodecimal >= 497 & botaodecimal <= 499 & seta == 0 & botaopassado == 1023)
+  {
+   ok1 = !ok1;//ok do vermelho
+  }
+  if(botaodecimal >= 497 & botaodecimal <= 499 & seta == 1 & botaopassado == 1023)
+  {
+   ok2 = !ok2;//ok do azul
+  }
+  
+  if(ok1 == 1)//vermelho ligado
+  {
+   lcd.setCursor(6,0);
+   lcd.print(porcentagem1);
+   lcd.print(" % ");
+    
+   analogWrite(ledv, brilho1);
+  }  
+  else
+  {
+   lcd.setCursor(6,0);
+   lcd.print("OFF ");
+    
+   digitalWrite(ledv, LOW);
+  }
+  
+  
+  if(ok2 == 1)//azul ligado
+  {
+   lcd.setCursor(6,1);
+   lcd.print(porcentagem2);
+   lcd.print(" % ");
+    
+   analogWrite(leda, brilho2);
+  }
+  else
+  {
+   lcd.setCursor(6,1);
+   lcd.print("OFF ");
+    
+   digitalWrite(leda, LOW);
+  }
+  //-----------------------------------------------------------
+//aula 38
+  
+  //botao mais brilho
+  if(675<=botaodecimal &
+     678>=botaodecimal &
+     seta == 0 &
+     botaopassado == 1023 &
+     ok1 == 1)
+  {
+   brilho1 = brilho1 + 25; 
+   porcentagem1 = porcentagem1 + 10; 
+  }
+  
+  if(675<=botaodecimal &
+     678>=botaodecimal & 
+     seta == 1 &
+     botaopassado == 1023 &
+     ok2 == 1)
+  {
+   brilho2 = brilho2 + 25; 
+   porcentagem2 = porcentagem2 + 10;
+  }
+  
+  //botao menos brilho
+  if(858<=botaodecimal &
+     860>=botaodecimal & 
+     seta == 0 &
+     botaopassado == 1023 &
+     ok1 == 1)
+  {
+   brilho1 = brilho1 - 25; 
+   porcentagem1 = porcentagem1 - 10;
+  }
+  
+  if(858<=botaodecimal &
+     860>=botaodecimal & 
+     seta == 1 &
+     botaopassado == 1023 &
+     ok2 == 1)
+  {
+   brilho2 = brilho2 - 25;
+   porcentagem2 = porcentagem2 - 10;
+  }
+  
+  if(porcentagem1 > 100)//quando ultrapassa ele continua
+  {
+   porcentagem1 = porcentagem1 - 10;
+   brilho1 = brilho1 - 25;
+  }
+  
+  if(porcentagem2 > 100)
+  {
+   porcentagem2 = porcentagem2 - 10;
+   brilho2 = brilho2 - 25;
+  }
+  
+  if(porcentagem1 < 0)//quando ultrapassa ele continua
+  {
+   porcentagem1 = porcentagem1 + 10;
+   brilho1 = brilho1 + 25;
+  }
+  
+  if(porcentagem2 < 0)
+  {
+   porcentagem2 = porcentagem2 + 10;
+    brilho2 = brilho2 + 25;
+  }
+  
+  botaopassado = botaodecimal;
+}

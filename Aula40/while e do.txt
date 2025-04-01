@@ -1,0 +1,31 @@
+void setup()
+{
+ /* while(condicao) -> vai repetir enquanto for verdadeiro a condicao
+   {
+    comando
+   }
+   
+   do -> vai executar uma vez o comando e se atender a condicao vai ser repetido o comando
+   {
+    comando
+   }
+   while(condicao)
+   {
+    comando
+   }
+ */
+  
+  Serial.begin(9600);
+  
+  while(true)
+  {
+   Serial.println("hello world");
+  }
+  
+}
+
+
+void loop()
+{
+
+}

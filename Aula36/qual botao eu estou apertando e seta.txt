@@ -1,0 +1,84 @@
+#include <LiquidCrystal_I2C.h>
+
+#include <LiquidCrystal_I2C.h>
+
+#define pinanalog A0
+
+LiquidCrystal_I2C lcd1(0x27,16,2);
+LiquidCrystal_I2C lcd2(0x26,20,6);
+
+void setup()
+{
+ lcd1.init();
+ lcd2.init();
+ lcd1.backlight();
+ lcd2.backlight();
+ Serial.begin(9600);
+}
+void loop()
+{
+ float decimalbotao = analogRead(pinanalog);
+ float voltsbotao = (decimalbotao * 5) / 1023;
+ static bool botaoupdown; 
+  Serial.println(voltsbotao);
+ if(3.78 <= voltsbotao & 4.60 >= voltsbotao)
+ {
+  lcd1.setCursor(0,0);
+  lcd1.print("Qual botao");
+  lcd1.setCursor(0,1);
+  lcd1.print("botao1");
+ }  
+ else if(2.97 <= voltsbotao & 3.63 >= voltsbotao)
+ {
+  lcd1.setCursor(0,0);
+  lcd1.print("Qual botao");
+  lcd1.setCursor(0,1);
+  lcd1.print("botao2"); 
+ }  
+ else if(2.19 <= voltsbotao & 2.67 >= voltsbotao)
+ {
+  lcd1.setCursor(0,0);
+  lcd1.print("Qual botao");
+  lcd1.setCursor(0,1);
+  lcd1.print("botao3"); 
+ }
+ else if(1.12 <= voltsbotao & 1.36 >= voltsbotao)
+ {
+  lcd1.setCursor(0,0);
+  lcd1.print("Qual botao");
+  lcd1.setCursor(0,1);
+  lcd1.print("botao4");
+  botaoupdown = 1;
+ }  
+ else if(0 == voltsbotao)
+ {
+  lcd1.setCursor(0,0);
+  lcd1.print("Qual botao");
+  lcd1.setCursor(0,1);
+  lcd1.print("botao5");
+  botaoupdown = 0;
+ }  
+ else
+ {
+  lcd1.setCursor(0,0);
+  lcd1.print("Qual botao");
+  lcd1.setCursor(0,1);
+  lcd1.print("nenhum"); 
+ }
+  
+  switch(botaoupdown) 
+  {
+   case 0:
+   lcd2.setCursor(0,1);
+   lcd2.print(" ");
+   lcd2.setCursor(0,0);
+   lcd2.print(">");
+   break;
+    case 1:
+   lcd2.setCursor(0,1);
+   lcd2.print(">");
+   lcd2.setCursor(0,0);
+   lcd2.print(" "); 
+   break;
+  }
+}

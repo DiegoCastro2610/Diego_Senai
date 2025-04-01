@@ -1,0 +1,24 @@
+#define led 12
+
+unsigned int tempoLed;
+unsigned int tempolow = 2000;
+unsigned int tempohigh = 1000;
+
+void setup()
+{
+ pinMode(led, OUTPUT);
+ Serial.begin(9600);
+}
+
+void loop()
+{
+tempoLed = millis();
+Serial.println(tempoLed);  
+if (tempohigh >= tempoLed) digitalWrite(led, HIGH);
+ 
+else if(tempolow >= tempoLed) digitalWrite(led, LOW);
+  
+else 
+ {tempolow = tempolow + 2000;
+  tempohigh = tempohigh + 2000;}  
+}

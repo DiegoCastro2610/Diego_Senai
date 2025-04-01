@@ -1,0 +1,61 @@
+int numeropassado = 1;
+int numeropresente = 1;
+int resultado;
+
+void setup()
+{
+ /* for(inicializacao; condicao; incremento)
+    {
+      condicao;
+    }
+    
+    exemplo: for(i = 0; i < 10 ; i++)
+    {
+      o i vai receber +1 ate ele atender a condicao de ser menor que 10
+    }
+ */
+  Serial.begin(9600);
+  
+  Serial.println("1");
+  Serial.println("1");
+  for(int i = 1; i < 9; i++)
+  {
+   resultado = numeropresente + numeropassado;
+   numeropassado = numeropresente;
+   numeropresente = resultado;
+   Serial.println(resultado);
+  }
+  /* tipodevariavel nomedela[10]; -> vai ter 10 espacos vazios de vairiaveis
+  que cada uma pode receber um valor perante a variavel escolhida
+  
+  tipodevariavel nomedela[] = {0,5,2,4,7}; -> vai ter 5 espacos com os valores
+  ja definido.
+  
+  tipodevariavel nomedela[10];
+  nomedela[3] = 10; -> vai receber o valor 10 na 4 espaco
+  */ 
+}
+void loop()
+{
+
+}
+
+/-----------------------------------------------------------------------------------------------/
+
+int pinled[10]{13, 12, 11, 10, 9, 8, 7, 6, 5, 4};
+
+void setup()
+{
+ for(int i = 0;i < 10; ++i)
+ {
+   pinMode(pinled[i], OUTPUT);
+   digitalWrite(pinled[i],HIGH);
+   delay(1000);
+   digitalWrite(pinled[i],LOW);
+ }
+}
+
+void loop()
+{
+
+}
