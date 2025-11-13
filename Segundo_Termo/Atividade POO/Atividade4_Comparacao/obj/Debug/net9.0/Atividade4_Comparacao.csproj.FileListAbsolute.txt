@@ -1,0 +1,14 @@
+C:\Users\45255137804\Desktop\Atividade POO\Atividade4_Comparacao\bin\Debug\net9.0\Atividade4_Comparacao.exe
+C:\Users\45255137804\Desktop\Atividade POO\Atividade4_Comparacao\bin\Debug\net9.0\Atividade4_Comparacao.deps.json
+C:\Users\45255137804\Desktop\Atividade POO\Atividade4_Comparacao\bin\Debug\net9.0\Atividade4_Comparacao.runtimeconfig.json
+C:\Users\45255137804\Desktop\Atividade POO\Atividade4_Comparacao\bin\Debug\net9.0\Atividade4_Comparacao.dll
+C:\Users\45255137804\Desktop\Atividade POO\Atividade4_Comparacao\bin\Debug\net9.0\Atividade4_Comparacao.pdb
+C:\Users\45255137804\Desktop\Atividade POO\Atividade4_Comparacao\obj\Debug\net9.0\Atividade4_Comparacao.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\45255137804\Desktop\Atividade POO\Atividade4_Comparacao\obj\Debug\net9.0\Atividade4_Comparacao.AssemblyInfoInputs.cache
+C:\Users\45255137804\Desktop\Atividade POO\Atividade4_Comparacao\obj\Debug\net9.0\Atividade4_Comparacao.AssemblyInfo.cs
+C:\Users\45255137804\Desktop\Atividade POO\Atividade4_Comparacao\obj\Debug\net9.0\Atividade4_Comparacao.csproj.CoreCompileInputs.cache
+C:\Users\45255137804\Desktop\Atividade POO\Atividade4_Comparacao\obj\Debug\net9.0\Atividade4_Comparacao.dll
+C:\Users\45255137804\Desktop\Atividade POO\Atividade4_Comparacao\obj\Debug\net9.0\refint\Atividade4_Comparacao.dll
+C:\Users\45255137804\Desktop\Atividade POO\Atividade4_Comparacao\obj\Debug\net9.0\Atividade4_Comparacao.pdb
+C:\Users\45255137804\Desktop\Atividade POO\Atividade4_Comparacao\obj\Debug\net9.0\Atividade4_Comparacao.genruntimeconfig.cache
+C:\Users\45255137804\Desktop\Atividade POO\Atividade4_Comparacao\obj\Debug\net9.0\ref\Atividade4_Comparacao.dll

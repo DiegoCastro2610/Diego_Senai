@@ -1,0 +1,229 @@
+C:\Users\45255137804\Desktop\Sitema de Cursos MVC\bin\Debug\net9.0\appsettings.Development.json
+C:\Users\45255137804\Desktop\Sitema de Cursos MVC\bin\Debug\net9.0\appsettings.json
+C:\Users\45255137804\Desktop\Sitema de Cursos MVC\bin\Debug\net9.0\Sitema de Cursos MVC.staticwebassets.runtime.json
+C:\Users\45255137804\Desktop\Sitema de Cursos MVC\bin\Debug\net9.0\Sitema de Cursos MVC.staticwebassets.endpoints.json
+C:\Users\45255137804\Desktop\Sitema de Cursos MVC\bin\Debug\net9.0\Sitema de Cursos MVC.exe
+C:\Users\45255137804\Desktop\Sitema de Cursos MVC\bin\Debug\net9.0\Sitema de Cursos MVC.deps.json
+C:\Users\45255137804\Desktop\Sitema de Cursos MVC\bin\Debug\net9.0\Sitema de Cursos MVC.runtimeconfig.json
+C:\Users\45255137804\Desktop\Sitema de Cursos MVC\bin\Debug\net9.0\Sitema de Cursos MVC.dll
+C:\Users\45255137804\Desktop\Sitema de Cursos MVC\bin\Debug\net9.0\Sitema de Cursos MVC.pdb
+C:\Users\45255137804\Desktop\Sitema de Cursos MVC\bin\Debug\net9.0\Azure.Core.dll
+C:\Users\45255137804\Desktop\Sitema de Cursos MVC\bin\Debug\net9.0\Azure.Identity.dll
+C:\Users\45255137804\Desktop\Sitema de Cursos MVC\bin\Debug\net9.0\Humanizer.dll
+C:\Users\45255137804\Desktop\Sitema de Cursos MVC\bin\Debug\net9.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\45255137804\Desktop\Sitema de Cursos MVC\bin\Debug\net9.0\Microsoft.Build.Locator.dll
+C:\Users\45255137804\Desktop\Sitema de Cursos MVC\bin\Debug\net9.0\Microsoft.CodeAnalysis.dll
+C:\Users\45255137804\Desktop\Sitema de Cursos MVC\bin\Debug\net9.0\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\45255137804\Desktop\Sitema de Cursos MVC\bin\Debug\net9.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\Users\45255137804\Desktop\Sitema de Cursos MVC\bin\Debug\net9.0\Microsoft.CodeAnalysis.Workspaces.dll
+C:\Users\45255137804\Desktop\Sitema de Cursos MVC\bin\Debug\net9.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.dll
+C:\Users\45255137804\Desktop\Sitema de Cursos MVC\bin\Debug\net9.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
+C:\Users\45255137804\Desktop\Sitema de Cursos MVC\bin\Debug\net9.0\Microsoft.Data.SqlClient.dll
+C:\Users\45255137804\Desktop\Sitema de Cursos MVC\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\45255137804\Desktop\Sitema de Cursos MVC\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\45255137804\Desktop\Sitema de Cursos MVC\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\45255137804\Desktop\Sitema de Cursos MVC\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\45255137804\Desktop\Sitema de Cursos MVC\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\45255137804\Desktop\Sitema de Cursos MVC\bin\Debug\net9.0\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\45255137804\Desktop\Sitema de Cursos MVC\bin\Debug\net9.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\45255137804\Desktop\Sitema de Cursos MVC\bin\Debug\net9.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\45255137804\Desktop\Sitema de Cursos MVC\bin\Debug\net9.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\45255137804\Desktop\Sitema de Cursos MVC\bin\Debug\net9.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\45255137804\Desktop\Sitema de Cursos MVC\bin\Debug\net9.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\45255137804\Desktop\Sitema de Cursos MVC\bin\Debug\net9.0\Microsoft.Extensions.Logging.dll
+C:\Users\45255137804\Desktop\Sitema de Cursos MVC\bin\Debug\net9.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\45255137804\Desktop\Sitema de Cursos MVC\bin\Debug\net9.0\Microsoft.Extensions.Options.dll
+C:\Users\45255137804\Desktop\Sitema de Cursos MVC\bin\Debug\net9.0\Microsoft.Extensions.Primitives.dll
+C:\Users\45255137804\Desktop\Sitema de Cursos MVC\bin\Debug\net9.0\Microsoft.Identity.Client.dll
+C:\Users\45255137804\Desktop\Sitema de Cursos MVC\bin\Debug\net9.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\45255137804\Desktop\Sitema de Cursos MVC\bin\Debug\net9.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\45255137804\Desktop\Sitema de Cursos MVC\bin\Debug\net9.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\45255137804\Desktop\Sitema de Cursos MVC\bin\Debug\net9.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\45255137804\Desktop\Sitema de Cursos MVC\bin\Debug\net9.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\45255137804\Desktop\Sitema de Cursos MVC\bin\Debug\net9.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\45255137804\Desktop\Sitema de Cursos MVC\bin\Debug\net9.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\45255137804\Desktop\Sitema de Cursos MVC\bin\Debug\net9.0\Microsoft.SqlServer.Server.dll
+C:\Users\45255137804\Desktop\Sitema de Cursos MVC\bin\Debug\net9.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\45255137804\Desktop\Sitema de Cursos MVC\bin\Debug\net9.0\Mono.TextTemplating.dll
+C:\Users\45255137804\Desktop\Sitema de Cursos MVC\bin\Debug\net9.0\System.ClientModel.dll
+C:\Users\45255137804\Desktop\Sitema de Cursos MVC\bin\Debug\net9.0\System.CodeDom.dll
+C:\Users\45255137804\Desktop\Sitema de Cursos MVC\bin\Debug\net9.0\System.Composition.AttributedModel.dll
+C:\Users\45255137804\Desktop\Sitema de Cursos MVC\bin\Debug\net9.0\System.Composition.Convention.dll
+C:\Users\45255137804\Desktop\Sitema de Cursos MVC\bin\Debug\net9.0\System.Composition.Hosting.dll
+C:\Users\45255137804\Desktop\Sitema de Cursos MVC\bin\Debug\net9.0\System.Composition.Runtime.dll
+C:\Users\45255137804\Desktop\Sitema de Cursos MVC\bin\Debug\net9.0\System.Composition.TypedParts.dll
+C:\Users\45255137804\Desktop\Sitema de Cursos MVC\bin\Debug\net9.0\System.Configuration.ConfigurationManager.dll
+C:\Users\45255137804\Desktop\Sitema de Cursos MVC\bin\Debug\net9.0\System.Drawing.Common.dll
+C:\Users\45255137804\Desktop\Sitema de Cursos MVC\bin\Debug\net9.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\45255137804\Desktop\Sitema de Cursos MVC\bin\Debug\net9.0\System.Memory.Data.dll
+C:\Users\45255137804\Desktop\Sitema de Cursos MVC\bin\Debug\net9.0\System.Runtime.Caching.dll
+C:\Users\45255137804\Desktop\Sitema de Cursos MVC\bin\Debug\net9.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\45255137804\Desktop\Sitema de Cursos MVC\bin\Debug\net9.0\System.Security.Permissions.dll
+C:\Users\45255137804\Desktop\Sitema de Cursos MVC\bin\Debug\net9.0\System.Text.Json.dll
+C:\Users\45255137804\Desktop\Sitema de Cursos MVC\bin\Debug\net9.0\System.Windows.Extensions.dll
+C:\Users\45255137804\Desktop\Sitema de Cursos MVC\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Users\45255137804\Desktop\Sitema de Cursos MVC\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.resources.dll
+C:\Users\45255137804\Desktop\Sitema de Cursos MVC\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.resources.dll
+C:\Users\45255137804\Desktop\Sitema de Cursos MVC\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\45255137804\Desktop\Sitema de Cursos MVC\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.resources.dll
+C:\Users\45255137804\Desktop\Sitema de Cursos MVC\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Users\45255137804\Desktop\Sitema de Cursos MVC\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Users\45255137804\Desktop\Sitema de Cursos MVC\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Users\45255137804\Desktop\Sitema de Cursos MVC\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Users\45255137804\Desktop\Sitema de Cursos MVC\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Users\45255137804\Desktop\Sitema de Cursos MVC\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\45255137804\Desktop\Sitema de Cursos MVC\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Users\45255137804\Desktop\Sitema de Cursos MVC\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Users\45255137804\Desktop\Sitema de Cursos MVC\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\45255137804\Desktop\Sitema de Cursos MVC\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\45255137804\Desktop\Sitema de Cursos MVC\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\45255137804\Desktop\Sitema de Cursos MVC\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\45255137804\Desktop\Sitema de Cursos MVC\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\45255137804\Desktop\Sitema de Cursos MVC\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\45255137804\Desktop\Sitema de Cursos MVC\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\45255137804\Desktop\Sitema de Cursos MVC\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\45255137804\Desktop\Sitema de Cursos MVC\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\45255137804\Desktop\Sitema de Cursos MVC\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\45255137804\Desktop\Sitema de Cursos MVC\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\45255137804\Desktop\Sitema de Cursos MVC\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\45255137804\Desktop\Sitema de Cursos MVC\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\45255137804\Desktop\Sitema de Cursos MVC\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\45255137804\Desktop\Sitema de Cursos MVC\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\45255137804\Desktop\Sitema de Cursos MVC\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\45255137804\Desktop\Sitema de Cursos MVC\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\45255137804\Desktop\Sitema de Cursos MVC\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\45255137804\Desktop\Sitema de Cursos MVC\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\45255137804\Desktop\Sitema de Cursos MVC\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\45255137804\Desktop\Sitema de Cursos MVC\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\45255137804\Desktop\Sitema de Cursos MVC\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\45255137804\Desktop\Sitema de Cursos MVC\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\45255137804\Desktop\Sitema de Cursos MVC\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\45255137804\Desktop\Sitema de Cursos MVC\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\45255137804\Desktop\Sitema de Cursos MVC\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\45255137804\Desktop\Sitema de Cursos MVC\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\45255137804\Desktop\Sitema de Cursos MVC\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\45255137804\Desktop\Sitema de Cursos MVC\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\45255137804\Desktop\Sitema de Cursos MVC\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\45255137804\Desktop\Sitema de Cursos MVC\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\45255137804\Desktop\Sitema de Cursos MVC\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\45255137804\Desktop\Sitema de Cursos MVC\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\45255137804\Desktop\Sitema de Cursos MVC\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\45255137804\Desktop\Sitema de Cursos MVC\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\45255137804\Desktop\Sitema de Cursos MVC\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\45255137804\Desktop\Sitema de Cursos MVC\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\45255137804\Desktop\Sitema de Cursos MVC\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\45255137804\Desktop\Sitema de Cursos MVC\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\45255137804\Desktop\Sitema de Cursos MVC\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\45255137804\Desktop\Sitema de Cursos MVC\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\45255137804\Desktop\Sitema de Cursos MVC\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\45255137804\Desktop\Sitema de Cursos MVC\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\45255137804\Desktop\Sitema de Cursos MVC\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\45255137804\Desktop\Sitema de Cursos MVC\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\45255137804\Desktop\Sitema de Cursos MVC\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\45255137804\Desktop\Sitema de Cursos MVC\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\45255137804\Desktop\Sitema de Cursos MVC\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\45255137804\Desktop\Sitema de Cursos MVC\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\45255137804\Desktop\Sitema de Cursos MVC\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\45255137804\Desktop\Sitema de Cursos MVC\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\45255137804\Desktop\Sitema de Cursos MVC\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\45255137804\Desktop\Sitema de Cursos MVC\bin\Debug\net9.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\45255137804\Desktop\Sitema de Cursos MVC\bin\Debug\net9.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\45255137804\Desktop\Sitema de Cursos MVC\bin\Debug\net9.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\45255137804\Desktop\Sitema de Cursos MVC\bin\Debug\net9.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\45255137804\Desktop\Sitema de Cursos MVC\bin\Debug\net9.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\45255137804\Desktop\Sitema de Cursos MVC\bin\Debug\net9.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\45255137804\Desktop\Sitema de Cursos MVC\bin\Debug\net9.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\45255137804\Desktop\Sitema de Cursos MVC\bin\Debug\net9.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+C:\Users\45255137804\Desktop\Sitema de Cursos MVC\bin\Debug\net9.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+C:\Users\45255137804\Desktop\Sitema de Cursos MVC\bin\Debug\net9.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+C:\Users\45255137804\Desktop\Sitema de Cursos MVC\bin\Debug\net9.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\45255137804\Desktop\Sitema de Cursos MVC\bin\Debug\net9.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\Users\45255137804\Desktop\Sitema de Cursos MVC\obj\Debug\net9.0\Sitema de Cursos MVC.csproj.AssemblyReference.cache
+C:\Users\45255137804\Desktop\Sitema de Cursos MVC\obj\Debug\net9.0\rpswa.dswa.cache.json
+C:\Users\45255137804\Desktop\Sitema de Cursos MVC\obj\Debug\net9.0\Sitema de Cursos MVC.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\45255137804\Desktop\Sitema de Cursos MVC\obj\Debug\net9.0\Sitema de Cursos MVC.AssemblyInfoInputs.cache
+C:\Users\45255137804\Desktop\Sitema de Cursos MVC\obj\Debug\net9.0\Sitema de Cursos MVC.AssemblyInfo.cs
+C:\Users\45255137804\Desktop\Sitema de Cursos MVC\obj\Debug\net9.0\Sitema de Cursos MVC.csproj.CoreCompileInputs.cache
+C:\Users\45255137804\Desktop\Sitema de Cursos MVC\obj\Debug\net9.0\Sitema de Cursos MVC.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\45255137804\Desktop\Sitema de Cursos MVC\obj\Debug\net9.0\Sitema de Cursos MVC.RazorAssemblyInfo.cache
+C:\Users\45255137804\Desktop\Sitema de Cursos MVC\obj\Debug\net9.0\Sitema de Cursos MVC.RazorAssemblyInfo.cs
+C:\Users\45255137804\Desktop\Sitema de Cursos MVC\obj\Debug\net9.0\rjimswa.dswa.cache.json
+C:\Users\45255137804\Desktop\Sitema de Cursos MVC\obj\Debug\net9.0\rjsmrazor.dswa.cache.json
+C:\Users\45255137804\Desktop\Sitema de Cursos MVC\obj\Debug\net9.0\rjsmcshtml.dswa.cache.json
+C:\Users\45255137804\Desktop\Sitema de Cursos MVC\obj\Debug\net9.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\45255137804\Desktop\Sitema de Cursos MVC\obj\Debug\net9.0\scopedcss\bundle\Sitema de Cursos MVC.styles.css
+C:\Users\45255137804\Desktop\Sitema de Cursos MVC\obj\Debug\net9.0\scopedcss\projectbundle\Sitema de Cursos MVC.bundle.scp.css
+C:\Users\45255137804\Desktop\Sitema de Cursos MVC\obj\Debug\net9.0\compressed\gf4mkzioft-lugek5hnai.gz
+C:\Users\45255137804\Desktop\Sitema de Cursos MVC\obj\Debug\net9.0\compressed\yq4bczjy5j-61n19gt1b8.gz
+C:\Users\45255137804\Desktop\Sitema de Cursos MVC\obj\Debug\net9.0\compressed\4lijy7wbjy-fr7q2aak1r.gz
+C:\Users\45255137804\Desktop\Sitema de Cursos MVC\obj\Debug\net9.0\compressed\9hfz699wf9-bqjiyaj88i.gz
+C:\Users\45255137804\Desktop\Sitema de Cursos MVC\obj\Debug\net9.0\compressed\j0czbtd025-c2jlpeoesf.gz
+C:\Users\45255137804\Desktop\Sitema de Cursos MVC\obj\Debug\net9.0\compressed\zeqjgdunq7-erw9l3u2r3.gz
+C:\Users\45255137804\Desktop\Sitema de Cursos MVC\obj\Debug\net9.0\compressed\7xv70a1c0k-aexeepp0ev.gz
+C:\Users\45255137804\Desktop\Sitema de Cursos MVC\obj\Debug\net9.0\compressed\wtjbjrxant-d7shbmvgxk.gz
+C:\Users\45255137804\Desktop\Sitema de Cursos MVC\obj\Debug\net9.0\compressed\7q4yev3hhi-ausgxo2sd3.gz
+C:\Users\45255137804\Desktop\Sitema de Cursos MVC\obj\Debug\net9.0\compressed\bj5zazhklk-k8d9w2qqmf.gz
+C:\Users\45255137804\Desktop\Sitema de Cursos MVC\obj\Debug\net9.0\compressed\1lyh2sm67l-cosvhxvwiu.gz
+C:\Users\45255137804\Desktop\Sitema de Cursos MVC\obj\Debug\net9.0\compressed\refal2wzua-ub07r2b239.gz
+C:\Users\45255137804\Desktop\Sitema de Cursos MVC\obj\Debug\net9.0\compressed\j02cg02h81-fvhpjtyr6v.gz
+C:\Users\45255137804\Desktop\Sitema de Cursos MVC\obj\Debug\net9.0\compressed\gh3287g5ru-b7pk76d08c.gz
+C:\Users\45255137804\Desktop\Sitema de Cursos MVC\obj\Debug\net9.0\compressed\zedxclo8tg-fsbi9cje9m.gz
+C:\Users\45255137804\Desktop\Sitema de Cursos MVC\obj\Debug\net9.0\compressed\bzuj4mbm1o-rzd6atqjts.gz
+C:\Users\45255137804\Desktop\Sitema de Cursos MVC\obj\Debug\net9.0\compressed\qsasq0r3j3-ee0r1s7dh0.gz
+C:\Users\45255137804\Desktop\Sitema de Cursos MVC\obj\Debug\net9.0\compressed\rbfy1v8lz4-dxx9fxp4il.gz
+C:\Users\45255137804\Desktop\Sitema de Cursos MVC\obj\Debug\net9.0\compressed\ua2ehzvund-jd9uben2k1.gz
+C:\Users\45255137804\Desktop\Sitema de Cursos MVC\obj\Debug\net9.0\compressed\ieqkpi48eh-khv3u5hwcm.gz
+C:\Users\45255137804\Desktop\Sitema de Cursos MVC\obj\Debug\net9.0\compressed\758lewdmfx-r4e9w2rdcm.gz
+C:\Users\45255137804\Desktop\Sitema de Cursos MVC\obj\Debug\net9.0\compressed\4jv52udxaj-lcd1t2u6c8.gz
+C:\Users\45255137804\Desktop\Sitema de Cursos MVC\obj\Debug\net9.0\compressed\1eblqoju0h-c2oey78nd0.gz
+C:\Users\45255137804\Desktop\Sitema de Cursos MVC\obj\Debug\net9.0\compressed\vcrm9soq87-tdbxkamptv.gz
+C:\Users\45255137804\Desktop\Sitema de Cursos MVC\obj\Debug\net9.0\compressed\8g2zqr9sxd-j5mq2jizvt.gz
+C:\Users\45255137804\Desktop\Sitema de Cursos MVC\obj\Debug\net9.0\compressed\1k323na7em-06098lyss8.gz
+C:\Users\45255137804\Desktop\Sitema de Cursos MVC\obj\Debug\net9.0\compressed\adld8s57a4-nvvlpmu67g.gz
+C:\Users\45255137804\Desktop\Sitema de Cursos MVC\obj\Debug\net9.0\compressed\d0omb9tzls-s35ty4nyc5.gz
+C:\Users\45255137804\Desktop\Sitema de Cursos MVC\obj\Debug\net9.0\compressed\ns9qwu4vh8-pj5nd1wqec.gz
+C:\Users\45255137804\Desktop\Sitema de Cursos MVC\obj\Debug\net9.0\compressed\xetyj6g01t-46ein0sx1k.gz
+C:\Users\45255137804\Desktop\Sitema de Cursos MVC\obj\Debug\net9.0\compressed\1hlfb64z67-v0zj4ognzu.gz
+C:\Users\45255137804\Desktop\Sitema de Cursos MVC\obj\Debug\net9.0\compressed\uyph6dp9wm-37tfw0ft22.gz
+C:\Users\45255137804\Desktop\Sitema de Cursos MVC\obj\Debug\net9.0\compressed\57p2x9m737-hrwsygsryq.gz
+C:\Users\45255137804\Desktop\Sitema de Cursos MVC\obj\Debug\net9.0\compressed\xv3vz85e1x-pk9g2wxc8p.gz
+C:\Users\45255137804\Desktop\Sitema de Cursos MVC\obj\Debug\net9.0\compressed\spkfex83ez-ft3s53vfgj.gz
+C:\Users\45255137804\Desktop\Sitema de Cursos MVC\obj\Debug\net9.0\compressed\boygsu3nyo-6cfz1n2cew.gz
+C:\Users\45255137804\Desktop\Sitema de Cursos MVC\obj\Debug\net9.0\compressed\l18fzhvzw1-6pdc2jztkx.gz
+C:\Users\45255137804\Desktop\Sitema de Cursos MVC\obj\Debug\net9.0\compressed\2hedcqdgxx-493y06b0oq.gz
+C:\Users\45255137804\Desktop\Sitema de Cursos MVC\obj\Debug\net9.0\compressed\3ovrzc02qt-iovd86k7lj.gz
+C:\Users\45255137804\Desktop\Sitema de Cursos MVC\obj\Debug\net9.0\compressed\pmeblxik96-vr1egmr9el.gz
+C:\Users\45255137804\Desktop\Sitema de Cursos MVC\obj\Debug\net9.0\compressed\op8jo34tgg-kbrnm935zg.gz
+C:\Users\45255137804\Desktop\Sitema de Cursos MVC\obj\Debug\net9.0\compressed\guhgmom44j-jj8uyg4cgr.gz
+C:\Users\45255137804\Desktop\Sitema de Cursos MVC\obj\Debug\net9.0\compressed\gpkry5ejt8-y7v9cxd14o.gz
+C:\Users\45255137804\Desktop\Sitema de Cursos MVC\obj\Debug\net9.0\compressed\agnn8o0j05-notf2xhcfb.gz
+C:\Users\45255137804\Desktop\Sitema de Cursos MVC\obj\Debug\net9.0\compressed\6jx3jfxf8u-h1s4sie4z3.gz
+C:\Users\45255137804\Desktop\Sitema de Cursos MVC\obj\Debug\net9.0\compressed\reoud2ls6u-63fj8s7r0e.gz
+C:\Users\45255137804\Desktop\Sitema de Cursos MVC\obj\Debug\net9.0\compressed\y1ewhw5tb0-0j3bgjxly4.gz
+C:\Users\45255137804\Desktop\Sitema de Cursos MVC\obj\Debug\net9.0\compressed\yqt7k75yei-47otxtyo56.gz
+C:\Users\45255137804\Desktop\Sitema de Cursos MVC\obj\Debug\net9.0\compressed\ow4atx9zd6-4v8eqarkd7.gz
+C:\Users\45255137804\Desktop\Sitema de Cursos MVC\obj\Debug\net9.0\compressed\rnj0gvwj5z-l3n5xuwxn8.gz
+C:\Users\45255137804\Desktop\Sitema de Cursos MVC\obj\Debug\net9.0\compressed\417g4j55ot-ilo7uva0vt.gz
+C:\Users\45255137804\Desktop\Sitema de Cursos MVC\obj\Debug\net9.0\compressed\6bdg867ztd-qlccset4i1.gz
+C:\Users\45255137804\Desktop\Sitema de Cursos MVC\obj\Debug\net9.0\compressed\v94ctwhqt5-lzl9nlhx6b.gz
+C:\Users\45255137804\Desktop\Sitema de Cursos MVC\obj\Debug\net9.0\compressed\hiifhhkesb-ag7o75518u.gz
+C:\Users\45255137804\Desktop\Sitema de Cursos MVC\obj\Debug\net9.0\compressed\yupd1s5kbd-xzw0cte36n.gz
+C:\Users\45255137804\Desktop\Sitema de Cursos MVC\obj\Debug\net9.0\compressed\qkg6djhjhe-0i3buxo5is.gz
+C:\Users\45255137804\Desktop\Sitema de Cursos MVC\obj\Debug\net9.0\compressed\yruvmw2zqw-o1o13a6vjx.gz
+C:\Users\45255137804\Desktop\Sitema de Cursos MVC\obj\Debug\net9.0\compressed\qsq6sgqkhv-ttgo8qnofa.gz
+C:\Users\45255137804\Desktop\Sitema de Cursos MVC\obj\Debug\net9.0\compressed\h9zqk7ebmy-2z0ns9nrw6.gz
+C:\Users\45255137804\Desktop\Sitema de Cursos MVC\obj\Debug\net9.0\compressed\9iduknym24-muycvpuwrr.gz
+C:\Users\45255137804\Desktop\Sitema de Cursos MVC\obj\Debug\net9.0\compressed\3hifrzpy68-87fc7y1x7t.gz
+C:\Users\45255137804\Desktop\Sitema de Cursos MVC\obj\Debug\net9.0\compressed\gm41bymmsz-jfsiqqwiad.gz
+C:\Users\45255137804\Desktop\Sitema de Cursos MVC\obj\Debug\net9.0\compressed\d19bq2leko-j26z2ukizo.gz
+C:\Users\45255137804\Desktop\Sitema de Cursos MVC\obj\Debug\net9.0\compressed\yz9i2zrc0j-j26z2ukizo.gz
+C:\Users\45255137804\Desktop\Sitema de Cursos MVC\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\45255137804\Desktop\Sitema de Cursos MVC\obj\Debug\net9.0\staticwebassets.build.json.cache
+C:\Users\45255137804\Desktop\Sitema de Cursos MVC\obj\Debug\net9.0\staticwebassets.development.json
+C:\Users\45255137804\Desktop\Sitema de Cursos MVC\obj\Debug\net9.0\staticwebassets.build.endpoints.json
+C:\Users\45255137804\Desktop\Sitema de Cursos MVC\obj\Debug\net9.0\Sitema d.2C7742DB.Up2Date
+C:\Users\45255137804\Desktop\Sitema de Cursos MVC\obj\Debug\net9.0\Sitema de Cursos MVC.dll
+C:\Users\45255137804\Desktop\Sitema de Cursos MVC\obj\Debug\net9.0\refint\Sitema de Cursos MVC.dll
+C:\Users\45255137804\Desktop\Sitema de Cursos MVC\obj\Debug\net9.0\Sitema de Cursos MVC.pdb
+C:\Users\45255137804\Desktop\Sitema de Cursos MVC\obj\Debug\net9.0\Sitema de Cursos MVC.genruntimeconfig.cache
+C:\Users\45255137804\Desktop\Sitema de Cursos MVC\obj\Debug\net9.0\ref\Sitema de Cursos MVC.dll

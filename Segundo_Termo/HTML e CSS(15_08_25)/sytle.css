@@ -1,0 +1,47 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    text-align: center;
+}
+
+.title{
+    background-image: url(all-pokemon-pictures-ti0jf6yjym5p0t8p.jpg);
+    text-align: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 20px;
+    padding: 10px;
+    
+}
+
+h1{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+button{
+    background-color: rgb(0, 94, 255);
+    color: white;
+    border-radius: 5px;
+    padding: 3px;
+}
+
+button:hover{
+cursor: pointer;
+background-color: rgba(21, 21, 255, 0.645);
+}
+
+footer{
+background-color: rgb(0, 94, 255);
+color: white;
+padding: 10px;
+}
+
+p{
+    margin: 10px;
+}

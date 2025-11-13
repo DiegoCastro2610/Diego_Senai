@@ -1,0 +1,74 @@
+main{
+    display: flex;
+}
+
+.esquerda{
+    display: flex;
+    flex-direction: column;
+    background-color: var(--fundo);
+    width: 30vw;
+    height: 94vh;
+    margin: 20px;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+img{
+    height: 110px;
+    width: 110px;
+}
+
+.texto_esquerda{
+    text-align: center;
+    color: white;
+}
+
+.direita{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 64vw;
+    height: 100vh;
+}
+
+.topo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.baixo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input{
+    width: 25vw;
+    height: 5vh;
+    border-radius: 7px;
+    padding-left:5px ;
+}
+
+button{
+    width: 25vw;
+    height: 5vh;
+    border-radius: 7px;
+    background-color:var(--fundo) ;
+    color: var(--amarelo) ;
+}
+
+.cadastro{
+    color: var(--amarelo);
+}
+
+.esqueceu{
+    color: black;
+}
+
+h2{
+    color: var(--amarelo);
+}

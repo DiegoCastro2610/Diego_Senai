@@ -1,0 +1,20 @@
+@model Exercicio_MVC_10_11_25.Models.Veiculo
+
+<h2>Cadastrar Carro</h2>
+
+<form asp-action="Criar">
+    <label>Modelo:</label>
+    <input type="text" name="CModelo" class="form-control"
+
+    <label>Ano</label>
+    <input type="number" name="CAno" class="form-control" step="0.01"> @*step -> controla casas decimais*@
+
+    <label>Qual veiculo:</label>
+    <select name="QVeiculo" class="form-control">
+        <option value="Carro">Carro</option>
+        <option value="Moto">Moto</option>
+    
+    </select>
+
+    <button type="submit" class="btn btn-primary">Salvar</button>
+</form>

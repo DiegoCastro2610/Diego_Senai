@@ -1,0 +1,27 @@
+@model List<Exercicio_MVC_10_11_25.Models.Veiculo>
+
+    <h2>Veiculos</h2>
+
+    <a asp-action="Criar" class="btn btn-primary">Novo Veiculo</a>
+
+    <table class="table mt-3">
+        <tr>
+            <th>Modelo</th>
+            <th>Tipo</th>
+            <th>Ano</th>
+            <th>Revisao</th>
+        </tr>
+        
+        @foreach(var veiculo in Model){
+            <tr>
+                <td>@veiculo.Modelo</td>
+                <td>@veiculo.GetType().Name</td> @* Mostar o tipo do objeto funcionario(se e gerente ou vendedor)*@
+                <td>@veiculo.Ano</td>
+                <td>@veiculo.CalcularRevisao()</td>
+                <td>
+                    <a asp-action="Deletar" asp-route-id="@veiculo.Id" class="btn btn-danger">Excluir</a>
+                </td>
+
+            </tr>
+        }
+    </table>

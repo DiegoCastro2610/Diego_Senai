@@ -1,0 +1,27 @@
+@model List<SistemaFuncionariosMVC.Models.Funcionario>
+
+    <h2>Funcionarios</h2>
+
+    <a asp-action="Criar" class="btn btn-primary">Novo Funcionario</a>
+
+    <table class="table mt-3">
+        <tr>
+            <th>Nome</th>
+            <th>Cargo</th>
+            <th>Salario base</th>
+            <th>Salario Final</th>
+            <th>Acoes</th>
+        </tr>
+        
+        @foreach(var funcionario in Model){
+            <tr>
+                <td>@funcionario.Nome</td>
+                <td>@funcionario.GetType().Name</td> @* Mostar o tipo do objeto funcionario(se e gerente ou vendedor)*@
+                <td>R$ @funcionario.SalarioBase</td>
+                <td>R$ @funcionario.CalcularSalario()</td>
+                <td>
+                    <a asp-action="Deletar" asp-route-id="@funcionario.Id" class="btn btn-danger">Excluir</a>
+                </td>
+            </tr>
+        }
+    </table>

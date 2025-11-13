@@ -1,0 +1,22 @@
+.imagem{
+    width: 200px;
+    height: 200px;
+}
+
+.texto{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.informacao{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.formulario{
+    display: grid;
+    margin: 10px;
+    gap: 40px;
+}
