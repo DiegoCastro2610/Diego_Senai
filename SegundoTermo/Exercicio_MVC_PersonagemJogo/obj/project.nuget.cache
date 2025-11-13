@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "b/qmNQwPrvU=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\45255137804\\Desktop\\Diego_Senai\\SegundoTermo\\Exercicio_MVC_PersonagemJogo\\Exercicio_MVC_PersonagemJogo.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\45255137804\\.nuget\\packages\\microsoft.entityframeworkcore.tools\\10.0.0\\microsoft.entityframeworkcore.tools.10.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
