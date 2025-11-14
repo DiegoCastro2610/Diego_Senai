@@ -2,11 +2,16 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using System.ComponentModel.DataAnnotations;
 
 namespace Exercicio_MVC_PersonagemJogo.Models
 {
     public abstract class Personagem
     {
+        [Key]
+        public int Id {get;set;}
+        [Required]
+        
         public string Nome { get; set; } = string.Empty;
 
         public uint Nivel { get; set; }

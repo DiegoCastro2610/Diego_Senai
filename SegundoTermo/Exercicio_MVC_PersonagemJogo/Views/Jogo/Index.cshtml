@@ -1,0 +1,27 @@
+@model List<Exercicio_MVC_PersonagemJogo.Models.Personagem>
+
+    <h2>Personagem</h2>
+
+    <a asp-action="Criar" class="btn btn-primary">Novo Personagem</a>
+
+    <table class="table mt-3">
+        <tr>
+            <th>Nome</th>
+            <th>Classe</th>
+            <th>Nivel</th>
+            <th>Poder</th>
+        </tr>
+        
+        @foreach(var personagem in Model){
+            <tr>
+                <td>@personagem.Nome</td>
+                <td>@personagem.GetType().Name</td> @* Mostar o tipo do objeto funcionario(se e gerente ou vendedor)*@
+                <td>@personagem.Nivel</td>
+                <td>@personagem.CalcularPoder()</td>
+                <td>
+                    <a asp-action="Deletar" asp-route-id="@personagem.Id" class="btn btn-danger">Excluir</a>
+                </td>
+
+            </tr>
+        }
+    </table>

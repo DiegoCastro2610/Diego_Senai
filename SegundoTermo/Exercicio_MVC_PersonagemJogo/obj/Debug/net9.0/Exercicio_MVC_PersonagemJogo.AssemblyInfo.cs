@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Exercicio_MVC_PersonagemJogo")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f47594fd563b5b62a2c50420340a230929a08554")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+009c9d672f9f0a561eb09fac551cfe68d8fa9c8d")]
 [assembly: System.Reflection.AssemblyProductAttribute("Exercicio_MVC_PersonagemJogo")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Exercicio_MVC_PersonagemJogo")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
