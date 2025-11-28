@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\45255137804\\Desktop\\Projeto Aurun MVC\\AurumLab\\AurumLab.csproj": {}
+    "C:\\Users\\45255137804\\Desktop\\Diego_Senai\\SegundoTermo\\Projeto Aurun MVC\\AurumLab\\AurumLab.csproj": {}
   },
   "projects": {
-    "C:\\Users\\45255137804\\Desktop\\Projeto Aurun MVC\\AurumLab\\AurumLab.csproj": {
+    "C:\\Users\\45255137804\\Desktop\\Diego_Senai\\SegundoTermo\\Projeto Aurun MVC\\AurumLab\\AurumLab.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\45255137804\\Desktop\\Projeto Aurun MVC\\AurumLab\\AurumLab.csproj",
+        "projectUniqueName": "C:\\Users\\45255137804\\Desktop\\Diego_Senai\\SegundoTermo\\Projeto Aurun MVC\\AurumLab\\AurumLab.csproj",
         "projectName": "AurumLab",
-        "projectPath": "C:\\Users\\45255137804\\Desktop\\Projeto Aurun MVC\\AurumLab\\AurumLab.csproj",
+        "projectPath": "C:\\Users\\45255137804\\Desktop\\Diego_Senai\\SegundoTermo\\Projeto Aurun MVC\\AurumLab\\AurumLab.csproj",
         "packagesPath": "C:\\Users\\45255137804\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\45255137804\\Desktop\\Projeto Aurun MVC\\AurumLab\\obj\\",
+        "outputPath": "C:\\Users\\45255137804\\Desktop\\Diego_Senai\\SegundoTermo\\Projeto Aurun MVC\\AurumLab\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\45255137804\\AppData\\Roaming\\NuGet\\NuGet.Config"

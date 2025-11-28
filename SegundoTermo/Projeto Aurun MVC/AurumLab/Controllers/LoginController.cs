@@ -46,7 +46,7 @@ namespace AurumLab.Controllers
             }
 
             HttpContext.Session.SetString("UsuarioNome", usuario.NomeCompleto);
-            HttpContext.Session.SetInt32("usuarioId", usuario.IdUsuario);
+            HttpContext.Session.SetInt32("UsuarioId", usuario.IdUsuario);
 
             return RedirectToAction("Dashboard", "Dashboard");
         }
