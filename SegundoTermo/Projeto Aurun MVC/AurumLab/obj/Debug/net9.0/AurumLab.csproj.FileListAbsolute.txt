@@ -564,3 +564,4 @@ C:\Users\45255137804\Desktop\Diego_Senai\SegundoTermo\Projeto Aurun MVC\AurumLab
 C:\Users\45255137804\Desktop\Diego_Senai\SegundoTermo\Projeto Aurun MVC\AurumLab\obj\Debug\net9.0\compressed\mxey2y3spy-vzqubb3vsn.gz
 C:\Users\45255137804\Desktop\Diego_Senai\SegundoTermo\Projeto Aurun MVC\AurumLab\obj\Debug\net9.0\compressed\gco28ymkds-brzl8gycod.gz
 C:\Users\45255137804\Desktop\Diego_Senai\SegundoTermo\Projeto Aurun MVC\AurumLab\obj\Debug\net9.0\compressed\jtw2xjdpay-78b2v3hwmg.gz
+C:\Users\45255137804\Desktop\Diego_Senai\SegundoTermo\Projeto Aurun MVC\AurumLab\obj\Debug\net9.0\compressed\4oelkf994e-y5j4g5prrn.gz

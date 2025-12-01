@@ -1,0 +1,51 @@
+@{
+  Layout = null;
+}
+
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <title>Tela de Login</title>
+  <link rel="stylesheet" href="~/styles/login.css" />
+  <script src="~/js/script.js" defer></script>
+</head>
+
+<body>
+
+  <main>
+    <div class="Login">
+      <section class="login">
+        <h1>Iniciar Sessão</h1>
+        <form method="post" action="/Login/Entrar">
+          <div class="logar">
+            <label>Email:</label>
+            <input type="email" name="email" id="usuario" class="usuario">
+
+            <label>Senha:</label>
+            <input type="password" name="senha" id="senha" class="senha">
+          </div>
+          <div class="botoes">
+
+            <button type="submit" class="entrar">Entrar</button>
+
+            <button type="submit" class="registrar">Registrar-se</button>
+
+          </div>
+
+          <div class="erro">@ViewBag.Erro</div>
+        </form>
+    </div>
+    </section>
+
+    <aside class="login-alternativo">
+      <h2>Ou Use</h2>
+      <img class="google" src="~/assets/google.png" alt="">
+      <a href="#">Esqueceu sua senha?</a>
+    </aside>
+    </div>
+  </main>
+</body>
+
+</html>
