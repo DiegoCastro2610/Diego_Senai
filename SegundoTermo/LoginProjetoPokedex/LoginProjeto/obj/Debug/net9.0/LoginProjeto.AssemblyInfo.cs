@@ -10,12 +10,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("AurumLab")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("LoginProjeto")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+087fae4a6ee3113cdd52b0a8a5c1bff979d9bfa8")]
-[assembly: System.Reflection.AssemblyProductAttribute("AurumLab")]
-[assembly: System.Reflection.AssemblyTitleAttribute("AurumLab")]
+[assembly: System.Reflection.AssemblyProductAttribute("LoginProjeto")]
+[assembly: System.Reflection.AssemblyTitleAttribute("LoginProjeto")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // Gerado pela classe WriteCodeFragment do MSBuild.
