@@ -1,0 +1,6 @@
+@_10_02_2026_VH_BURGUER_HostAddress = http://localhost:5259
+
+GET {{_10_02_2026_VH_BURGUER_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

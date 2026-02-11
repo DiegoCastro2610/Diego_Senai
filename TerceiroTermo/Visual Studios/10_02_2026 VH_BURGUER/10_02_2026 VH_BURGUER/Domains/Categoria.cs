@@ -1,0 +1,13 @@
+﻿using System;
+using System.Collections.Generic;
+
+namespace _10_02_2026_VH_BURGUER.Domains;
+
+public partial class Categoria
+{
+    public int CategoriaID { get; set; }
+
+    public string Nome { get; set; } = null!;
+
+    public virtual ICollection<Produto> Produto { get; set; } = new List<Produto>();
+}

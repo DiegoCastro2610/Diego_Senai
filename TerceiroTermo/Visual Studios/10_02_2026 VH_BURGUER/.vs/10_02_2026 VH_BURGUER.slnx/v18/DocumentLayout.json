@@ -1,0 +1,142 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\45255137804\\Desktop\\Visual Studios\\10_02_2026 VH_BURGUER\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D2AC843B-414B-4257-D7E7-B123CF5736C0}|10_02_2026 VH_BURGUER\\10_02_2026 VH_BURGUER.csproj|c:\\users\\45255137804\\desktop\\visual studios\\10_02_2026 vh_burguer\\10_02_2026 vh_burguer\\applications\\services\\usuarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2AC843B-414B-4257-D7E7-B123CF5736C0}|10_02_2026 VH_BURGUER\\10_02_2026 VH_BURGUER.csproj|solutionrelative:10_02_2026 vh_burguer\\applications\\services\\usuarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2AC843B-414B-4257-D7E7-B123CF5736C0}|10_02_2026 VH_BURGUER\\10_02_2026 VH_BURGUER.csproj|c:\\users\\45255137804\\desktop\\visual studios\\10_02_2026 vh_burguer\\10_02_2026 vh_burguer\\exceptions\\domainexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2AC843B-414B-4257-D7E7-B123CF5736C0}|10_02_2026 VH_BURGUER\\10_02_2026 VH_BURGUER.csproj|solutionrelative:10_02_2026 vh_burguer\\exceptions\\domainexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2AC843B-414B-4257-D7E7-B123CF5736C0}|10_02_2026 VH_BURGUER\\10_02_2026 VH_BURGUER.csproj|c:\\users\\45255137804\\desktop\\visual studios\\10_02_2026 vh_burguer\\10_02_2026 vh_burguer\\repositories\\usuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2AC843B-414B-4257-D7E7-B123CF5736C0}|10_02_2026 VH_BURGUER\\10_02_2026 VH_BURGUER.csproj|solutionrelative:10_02_2026 vh_burguer\\repositories\\usuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2AC843B-414B-4257-D7E7-B123CF5736C0}|10_02_2026 VH_BURGUER\\10_02_2026 VH_BURGUER.csproj|c:\\users\\45255137804\\desktop\\visual studios\\10_02_2026 vh_burguer\\10_02_2026 vh_burguer\\interfaces\\iusuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2AC843B-414B-4257-D7E7-B123CF5736C0}|10_02_2026 VH_BURGUER\\10_02_2026 VH_BURGUER.csproj|solutionrelative:10_02_2026 vh_burguer\\interfaces\\iusuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2AC843B-414B-4257-D7E7-B123CF5736C0}|10_02_2026 VH_BURGUER\\10_02_2026 VH_BURGUER.csproj|c:\\users\\45255137804\\desktop\\visual studios\\10_02_2026 vh_burguer\\10_02_2026 vh_burguer\\dtos\\lerusuariodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2AC843B-414B-4257-D7E7-B123CF5736C0}|10_02_2026 VH_BURGUER\\10_02_2026 VH_BURGUER.csproj|solutionrelative:10_02_2026 vh_burguer\\dtos\\lerusuariodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2AC843B-414B-4257-D7E7-B123CF5736C0}|10_02_2026 VH_BURGUER\\10_02_2026 VH_BURGUER.csproj|c:\\users\\45255137804\\desktop\\visual studios\\10_02_2026 vh_burguer\\10_02_2026 vh_burguer\\dtos\\criarusuariodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2AC843B-414B-4257-D7E7-B123CF5736C0}|10_02_2026 VH_BURGUER\\10_02_2026 VH_BURGUER.csproj|solutionrelative:10_02_2026 vh_burguer\\dtos\\criarusuariodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2AC843B-414B-4257-D7E7-B123CF5736C0}|10_02_2026 VH_BURGUER\\10_02_2026 VH_BURGUER.csproj|c:\\users\\45255137804\\desktop\\visual studios\\10_02_2026 vh_burguer\\10_02_2026 vh_burguer\\contexts\\vh_burguercontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2AC843B-414B-4257-D7E7-B123CF5736C0}|10_02_2026 VH_BURGUER\\10_02_2026 VH_BURGUER.csproj|solutionrelative:10_02_2026 vh_burguer\\contexts\\vh_burguercontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DomainException.cs",
+              "DocumentMoniker": "C:\\Users\\45255137804\\Desktop\\Visual Studios\\10_02_2026 VH_BURGUER\\10_02_2026 VH_BURGUER\\Exceptions\\DomainException.cs",
+              "RelativeDocumentMoniker": "10_02_2026 VH_BURGUER\\Exceptions\\DomainException.cs",
+              "ToolTip": "C:\\Users\\45255137804\\Desktop\\Visual Studios\\10_02_2026 VH_BURGUER\\10_02_2026 VH_BURGUER\\Exceptions\\DomainException.cs",
+              "RelativeToolTip": "10_02_2026 VH_BURGUER\\Exceptions\\DomainException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-11T13:17:56.865Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UsuarioService.cs",
+              "DocumentMoniker": "C:\\Users\\45255137804\\Desktop\\Visual Studios\\10_02_2026 VH_BURGUER\\10_02_2026 VH_BURGUER\\Applications\\Services\\UsuarioService.cs",
+              "RelativeDocumentMoniker": "10_02_2026 VH_BURGUER\\Applications\\Services\\UsuarioService.cs",
+              "ToolTip": "C:\\Users\\45255137804\\Desktop\\Visual Studios\\10_02_2026 VH_BURGUER\\10_02_2026 VH_BURGUER\\Applications\\Services\\UsuarioService.cs",
+              "RelativeToolTip": "10_02_2026 VH_BURGUER\\Applications\\Services\\UsuarioService.cs",
+              "ViewState": "AgIAAEQAAAAAAAAAAAAuwEQAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-11T12:15:43.112Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UsuarioRepository.cs",
+              "DocumentMoniker": "C:\\Users\\45255137804\\Desktop\\Visual Studios\\10_02_2026 VH_BURGUER\\10_02_2026 VH_BURGUER\\Repositories\\UsuarioRepository.cs",
+              "RelativeDocumentMoniker": "10_02_2026 VH_BURGUER\\Repositories\\UsuarioRepository.cs",
+              "ToolTip": "C:\\Users\\45255137804\\Desktop\\Visual Studios\\10_02_2026 VH_BURGUER\\10_02_2026 VH_BURGUER\\Repositories\\UsuarioRepository.cs",
+              "RelativeToolTip": "10_02_2026 VH_BURGUER\\Repositories\\UsuarioRepository.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAiwEAAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-11T11:31:42.213Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IUsuarioRepository.cs",
+              "DocumentMoniker": "C:\\Users\\45255137804\\Desktop\\Visual Studios\\10_02_2026 VH_BURGUER\\10_02_2026 VH_BURGUER\\Interfaces\\IUsuarioRepository.cs",
+              "RelativeDocumentMoniker": "10_02_2026 VH_BURGUER\\Interfaces\\IUsuarioRepository.cs",
+              "ToolTip": "C:\\Users\\45255137804\\Desktop\\Visual Studios\\10_02_2026 VH_BURGUER\\10_02_2026 VH_BURGUER\\Interfaces\\IUsuarioRepository.cs",
+              "RelativeToolTip": "10_02_2026 VH_BURGUER\\Interfaces\\IUsuarioRepository.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAQwBIAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-11T11:23:01.417Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "LerUsuarioDto.cs",
+              "DocumentMoniker": "C:\\Users\\45255137804\\Desktop\\Visual Studios\\10_02_2026 VH_BURGUER\\10_02_2026 VH_BURGUER\\DTOs\\LerUsuarioDto.cs",
+              "RelativeDocumentMoniker": "10_02_2026 VH_BURGUER\\DTOs\\LerUsuarioDto.cs",
+              "ToolTip": "C:\\Users\\45255137804\\Desktop\\Visual Studios\\10_02_2026 VH_BURGUER\\10_02_2026 VH_BURGUER\\DTOs\\LerUsuarioDto.cs",
+              "RelativeToolTip": "10_02_2026 VH_BURGUER\\DTOs\\LerUsuarioDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-11T11:14:49.931Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CriarUsuarioDto.cs",
+              "DocumentMoniker": "C:\\Users\\45255137804\\Desktop\\Visual Studios\\10_02_2026 VH_BURGUER\\10_02_2026 VH_BURGUER\\DTOs\\CriarUsuarioDto.cs",
+              "RelativeDocumentMoniker": "10_02_2026 VH_BURGUER\\DTOs\\CriarUsuarioDto.cs",
+              "ToolTip": "C:\\Users\\45255137804\\Desktop\\Visual Studios\\10_02_2026 VH_BURGUER\\10_02_2026 VH_BURGUER\\DTOs\\CriarUsuarioDto.cs",
+              "RelativeToolTip": "10_02_2026 VH_BURGUER\\DTOs\\CriarUsuarioDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-11T11:12:10.562Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "VH_BurguerContext.cs",
+              "DocumentMoniker": "C:\\Users\\45255137804\\Desktop\\Visual Studios\\10_02_2026 VH_BURGUER\\10_02_2026 VH_BURGUER\\Contexts\\VH_BurguerContext.cs",
+              "RelativeDocumentMoniker": "10_02_2026 VH_BURGUER\\Contexts\\VH_BurguerContext.cs",
+              "ToolTip": "C:\\Users\\45255137804\\Desktop\\Visual Studios\\10_02_2026 VH_BURGUER\\10_02_2026 VH_BURGUER\\Contexts\\VH_BurguerContext.cs",
+              "RelativeToolTip": "10_02_2026 VH_BURGUER\\Contexts\\VH_BurguerContext.cs",
+              "ViewState": "AgIAAHwAAAAAAAAAAAAYwBIAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-10T13:56:55.357Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
