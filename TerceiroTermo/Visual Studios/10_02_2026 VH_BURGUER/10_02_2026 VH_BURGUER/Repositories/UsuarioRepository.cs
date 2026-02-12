@@ -31,7 +31,7 @@ namespace _10_02_2026_VH_BURGUER.Repositories
         public bool EmailExiste(string email)
         {
             return _context.Usuario.Any(usuario => usuario.Email == email);
-            
+
         }
 
         public void Adicionar(Usuario usuario)
@@ -44,7 +44,7 @@ namespace _10_02_2026_VH_BURGUER.Repositories
         {
             Usuario? usuarioBanco = _context.Usuario.FirstOrDefault(usuarioAux => usuarioAux.UsuarioID == usuario.UsuarioID);
 
-            if(usuarioBanco == null)
+            if (usuarioBanco == null)
             {
                 return;
             }
@@ -60,7 +60,7 @@ namespace _10_02_2026_VH_BURGUER.Repositories
         {
             Usuario? usuario = _context.Usuario.FirstOrDefault(usuarioAux => usuarioAux.UsuarioID == id);
 
-            if(usuario == null)
+            if (usuario == null)
             {
                 return;
             }

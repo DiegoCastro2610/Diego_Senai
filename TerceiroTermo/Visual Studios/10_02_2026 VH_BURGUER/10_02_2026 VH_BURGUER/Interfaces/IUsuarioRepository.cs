@@ -18,6 +18,6 @@ namespace _10_02_2026_VH_BURGUER.Interfaces
 
         void Atualizar(Usuario usuario);
 
-        void Remover(int  id);
+        void Remover(int id);
     }
 }
