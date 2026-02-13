@@ -1,5 +1,5 @@
 ﻿using _10_02_2026_VH_BURGUER.Applications.Services;
-using _10_02_2026_VH_BURGUER.DTOs;
+using _10_02_2026_VH_BURGUER.DTOs.UsuarioDto;
 using _10_02_2026_VH_BURGUER.Exceptions;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;

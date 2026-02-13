@@ -1,5 +1,5 @@
 ﻿using _10_02_2026_VH_BURGUER.Domains;
-using _10_02_2026_VH_BURGUER.DTOs;
+using _10_02_2026_VH_BURGUER.DTOs.UsuarioDto;
 using _10_02_2026_VH_BURGUER.Exceptions;
 using _10_02_2026_VH_BURGUER.Interfaces;
 using System.Security.Cryptography;
