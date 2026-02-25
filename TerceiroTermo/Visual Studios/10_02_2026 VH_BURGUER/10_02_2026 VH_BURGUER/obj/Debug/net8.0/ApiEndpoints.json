@@ -1,5 +1,415 @@
 [
   {
+    "ContainingType": "_10_02_2026_VH_BURGUER.Controllers.AutenticacaoController",
+    "Method": "Login",
+    "RelativePath": "api/Autenticacao/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "loginDto",
+        "Type": "_10_02_2026_VH_BURGUER.DTOs.AutenticacaoDto.LoginDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "_10_02_2026_VH_BURGUER.DTOs.AutenticacaoDto.TokenDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "_10_02_2026_VH_BURGUER.Controllers.CategoriaController",
+    "Method": "Listar",
+    "RelativePath": "api/Categoria",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[_10_02_2026_VH_BURGUER.DTOs.CategoriaDto.LerCategoriaDto, 10_02_2026 VH_BURGUER, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "_10_02_2026_VH_BURGUER.Controllers.CategoriaController",
+    "Method": "Adicionar",
+    "RelativePath": "api/Categoria",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "criarDto",
+        "Type": "_10_02_2026_VH_BURGUER.DTOs.CategoriaDto.CriarCategoriaDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "_10_02_2026_VH_BURGUER.Controllers.CategoriaController",
+    "Method": "ObterPorId",
+    "RelativePath": "api/Categoria/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "_10_02_2026_VH_BURGUER.DTOs.CategoriaDto.LerCategoriaDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "_10_02_2026_VH_BURGUER.Controllers.CategoriaController",
+    "Method": "Atualizar",
+    "RelativePath": "api/Categoria/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "criarDto",
+        "Type": "_10_02_2026_VH_BURGUER.DTOs.CategoriaDto.CriarCategoriaDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "_10_02_2026_VH_BURGUER.Controllers.CategoriaController",
+    "Method": "Remover",
+    "RelativePath": "api/Categoria/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "_10_02_2026_VH_BURGUER.Controllers.LogProdutoController",
+    "Method": "Listar",
+    "RelativePath": "api/LogProduto",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "_10_02_2026_VH_BURGUER.Controllers.LogProdutoController",
+    "Method": "ListarProduto",
+    "RelativePath": "api/LogProduto/produto/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "_10_02_2026_VH_BURGUER.Controllers.ProdutoController",
+    "Method": "Listar",
+    "RelativePath": "api/Produto",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[_10_02_2026_VH_BURGUER.DTOs.ProdutoDto.LerProdutoDto, 10_02_2026 VH_BURGUER, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "_10_02_2026_VH_BURGUER.Controllers.ProdutoController",
+    "Method": "Adicionar",
+    "RelativePath": "api/Produto",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Nome",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Preco",
+        "Type": "System.Decimal",
+        "IsRequired": false
+      },
+      {
+        "Name": "Descricao",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Imagem",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      },
+      {
+        "Name": "CategoriaIds",
+        "Type": "System.Collections.Generic.List\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "_10_02_2026_VH_BURGUER.Controllers.ProdutoController",
+    "Method": "ObterPorID",
+    "RelativePath": "api/Produto/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "_10_02_2026_VH_BURGUER.DTOs.ProdutoDto.LerProdutoDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "_10_02_2026_VH_BURGUER.Controllers.ProdutoController",
+    "Method": "Atualizar",
+    "RelativePath": "api/Produto/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "Nome",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Preco",
+        "Type": "System.Decimal",
+        "IsRequired": false
+      },
+      {
+        "Name": "Descricao",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Imagem",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      },
+      {
+        "Name": "CategoriaIDs",
+        "Type": "System.Collections.Generic.List\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "StatusProduto",
+        "Type": "System.Nullable\u00601[[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "_10_02_2026_VH_BURGUER.Controllers.ProdutoController",
+    "Method": "Remover",
+    "RelativePath": "api/Produto/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "_10_02_2026_VH_BURGUER.Controllers.ProdutoController",
+    "Method": "ObterImagem",
+    "RelativePath": "api/Produto/{id}/imagem",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "_10_02_2026_VH_BURGUER.Controllers.PromocaoController",
+    "Method": "Listar",
+    "RelativePath": "api/Promocao",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[_10_02_2026_VH_BURGUER.DTOs.PromocaoDto.LerPromocaoDto, 10_02_2026 VH_BURGUER, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "_10_02_2026_VH_BURGUER.Controllers.PromocaoController",
+    "Method": "Adicionar",
+    "RelativePath": "api/Promocao",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "promocaoDto",
+        "Type": "_10_02_2026_VH_BURGUER.DTOs.PromocaoDto.CriarPromocaoDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "_10_02_2026_VH_BURGUER.Controllers.PromocaoController",
+    "Method": "ObterPorId",
+    "RelativePath": "api/Promocao/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "_10_02_2026_VH_BURGUER.DTOs.PromocaoDto.LerPromocaoDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "_10_02_2026_VH_BURGUER.Controllers.PromocaoController",
+    "Method": "Atualizar",
+    "RelativePath": "api/Promocao/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "promocaoDto",
+        "Type": "_10_02_2026_VH_BURGUER.DTOs.PromocaoDto.CriarPromocaoDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "_10_02_2026_VH_BURGUER.Controllers.PromocaoController",
+    "Method": "Remover",
+    "RelativePath": "api/Promocao/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "_10_02_2026_VH_BURGUER.Controllers.UsuarioController",
     "Method": "List",
     "RelativePath": "api/Usuario",
@@ -9,7 +419,7 @@
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.List\u00601[[_10_02_2026_VH_BURGUER.DTOs.LerUsuarioDto, 10_02_2026 VH_BURGUER, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.List\u00601[[_10_02_2026_VH_BURGUER.DTOs.UsuarioDto.LerUsuarioDto, 10_02_2026 VH_BURGUER, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -29,13 +439,13 @@
     "Parameters": [
       {
         "Name": "usuarioDto",
-        "Type": "_10_02_2026_VH_BURGUER.DTOs.CriarUsuarioDto",
+        "Type": "_10_02_2026_VH_BURGUER.DTOs.UsuarioDto.CriarUsuarioDto",
         "IsRequired": true
       }
     ],
     "ReturnTypes": [
       {
-        "Type": "_10_02_2026_VH_BURGUER.DTOs.LerUsuarioDto",
+        "Type": "_10_02_2026_VH_BURGUER.DTOs.UsuarioDto.LerUsuarioDto",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -61,7 +471,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "_10_02_2026_VH_BURGUER.DTOs.LerUsuarioDto",
+        "Type": "_10_02_2026_VH_BURGUER.DTOs.UsuarioDto.LerUsuarioDto",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -86,13 +496,13 @@
       },
       {
         "Name": "usuarioDto",
-        "Type": "_10_02_2026_VH_BURGUER.DTOs.CriarUsuarioDto",
+        "Type": "_10_02_2026_VH_BURGUER.DTOs.UsuarioDto.CriarUsuarioDto",
         "IsRequired": true
       }
     ],
     "ReturnTypes": [
       {
-        "Type": "_10_02_2026_VH_BURGUER.DTOs.LerUsuarioDto",
+        "Type": "_10_02_2026_VH_BURGUER.DTOs.UsuarioDto.LerUsuarioDto",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -134,7 +544,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "_10_02_2026_VH_BURGUER.DTOs.LerUsuarioDto",
+        "Type": "_10_02_2026_VH_BURGUER.DTOs.UsuarioDto.LerUsuarioDto",
         "MediaTypes": [
           "text/plain",
           "application/json",

@@ -21,7 +21,9 @@ namespace _10_02_2026_VH_BURGUER.Repositories
             return produtos;
         }
 
-        public Produto ObterPorId(int id)
+
+
+        public Produto ObterPorID(int id)
         {
             Produto produto = _context.Produto.Include(produtoDb => produtoDb.Categoria).Include(produtoDb => produtoDb.Usuario).FirstOrDefault(produtoDb => produtoDb.ProdutoID == id);
 

@@ -5,7 +5,7 @@ namespace _10_02_2026_VH_BURGUER.Interfaces
     public interface IProdutoRepository
     {
         List<Produto> Listar();
-        Produto ObterPorId(int id);
+        Produto ObterPorID(int id);
         byte[] ObterImagem(int id);
         bool NomeExiste(string nome, int? produtoIdAtual = null);
         void Adicionar(Produto produto, List<int> categoriaIds);
