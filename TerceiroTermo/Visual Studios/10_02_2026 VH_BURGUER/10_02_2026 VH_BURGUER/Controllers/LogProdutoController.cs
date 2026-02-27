@@ -1,4 +1,5 @@
 ﻿using _10_02_2026_VH_BURGUER.Applications.Services;
+using _10_02_2026_VH_BURGUER.Exceptions;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
@@ -26,7 +27,15 @@ namespace _10_02_2026_VH_BURGUER.Controllers
 
         public ActionResult ListarProduto(int id)
         {
-            return Ok(_service.ListarPorProduto(id));
+            try 
+            {
+                return Ok(_service.ListarPorProduto(id));
+            }
+            catch (DomainException ex)
+            {
+                return BadRequest(ex.Message);
+            }
+            
         }
     }
 }

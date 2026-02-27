@@ -28,8 +28,13 @@ namespace _10_02_2026_VH_BURGUER.Applications.Services
         public TokenDto Login(LoginDto loginDto)
         {
             Usuario usuario = _repository.ObterPorEmail(loginDto.Email);
+           
+            if (usuario.StatusUsuario == false)
+            {
+                throw new DomainException("Esse Usuario foi desativado");
+            }
 
-            if(usuario == null)
+            if (usuario == null)
             {
                 throw new DomainException("E-mail ou senha Invalidos");
             }
@@ -39,6 +44,7 @@ namespace _10_02_2026_VH_BURGUER.Applications.Services
                 throw new DomainException("E-mail ou senha invalidos");
             }
 
+      
             var token = _tokenJwt.GerarToken(usuario);
 
             TokenDto novoToken = new TokenDto { Token = token};

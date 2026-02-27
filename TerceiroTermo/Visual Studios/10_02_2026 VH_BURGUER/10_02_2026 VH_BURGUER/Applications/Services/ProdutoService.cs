@@ -113,6 +113,7 @@ namespace _10_02_2026_VH_BURGUER.Applications.Services
                 throw new DomainException("Produto não encontrado.");
             }
 
+
             // : serve para passar o valor do parametro
             if (_repository.NomeExiste(produtoDto.Nome, produtoIdAtual: id))
             {
@@ -151,6 +152,7 @@ namespace _10_02_2026_VH_BURGUER.Applications.Services
 
         public void Remover(int id)
         {
+
             HorarioAlteracaoProduto.ValidarHorario();
 
             Produto produto = _repository.ObterPorID(id);

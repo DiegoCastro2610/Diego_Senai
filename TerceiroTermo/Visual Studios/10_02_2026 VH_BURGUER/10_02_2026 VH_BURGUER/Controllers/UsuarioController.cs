@@ -28,28 +28,29 @@ namespace _10_02_2026_VH_BURGUER.Controllers
 
         public ActionResult<LerUsuarioDto> ObterPorId(int id)
         {
-            LerUsuarioDto usuario = _service.ObterPorId(id);
-
-            if (usuario == null)
+            try
             {
-                return NotFound(); // Nao encontrado Erro 404
+                LerUsuarioDto usuario = _service.ObterPorId(id);
+                return Ok(usuario);
             }
-
-            return Ok(usuario);
-
+            catch (DomainException ex)
+            {
+                return NotFound(ex.Message);
+            }
         }
 
         [HttpGet("email/{email}")]
         public ActionResult<LerUsuarioDto> ObterPorEmail(string email)
         {
-            LerUsuarioDto usuario = _service.ObterPorEmail(email);
-
-            if (usuario == null)
+          try
             {
-                return NotFound();
+                LerUsuarioDto usuario = _service.ObterPorEmail(email);
+                return Ok(usuario);
             }
-
-            return Ok(usuario);
+            catch (DomainException ex)
+            {
+                return NotFound(ex.Message);
+            }
         }
 
         //enviar dados

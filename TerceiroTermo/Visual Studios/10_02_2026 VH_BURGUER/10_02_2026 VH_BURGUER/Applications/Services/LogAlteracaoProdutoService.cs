@@ -1,5 +1,6 @@
 ﻿using _10_02_2026_VH_BURGUER.Domains;
 using _10_02_2026_VH_BURGUER.DTOs.LogProdutoDto;
+using _10_02_2026_VH_BURGUER.Exceptions;
 using _10_02_2026_VH_BURGUER.Interfaces;
 
 namespace _10_02_2026_VH_BURGUER.Applications.Services
@@ -25,7 +26,14 @@ namespace _10_02_2026_VH_BURGUER.Applications.Services
         {
             List<Log_AlteracaoProduto> logs = _repository.ListarPorProduto(produtoId);
 
-            List<LerLogProdutoDto> listaLogProduto = logs.Select(log => new LerLogProdutoDto { LogID = log.Log_AlteracaoProdutoID, ProdutoID = log.ProdutoID, NomeAnterior = log.NomeAnterior, PrecoAnterior = log.PrecoAnterior, DataAlteracao = log.DataAlteracao }).ToList();
+            List<LerLogProdutoDto>? listaLogProduto = logs.Select(log => new LerLogProdutoDto { LogID = log.Log_AlteracaoProdutoID, ProdutoID = log.ProdutoID, NomeAnterior = log.NomeAnterior, PrecoAnterior = log.PrecoAnterior, DataAlteracao = log.DataAlteracao }).ToList();
+
+            if (listaLogProduto.Count == 0)
+            {
+                listaLogProduto = null;
+                throw new DomainException("não teve alteração");
+            }
+
             return listaLogProduto;
         }
     }
